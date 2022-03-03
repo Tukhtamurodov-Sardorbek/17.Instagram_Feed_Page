@@ -1,14 +1,10 @@
 # INSTAGRAM FEED PAGE UI
 
-### Splash Page :
-| Splash Page |
-|----------------|
-| ![Splash Page](assets/readme/1.splash_page.png) |
+### Splash & Sign in Page:
+| Splash Page | Sign in Page |
+|----------------|:----------------:|
+| ![Splash Page](assets/readme/1.splash_page.png) | ![Sign in Page](assets/readme/2.sign_in_page.png) |
 
-### Sign in Page :
-| Sign in Page |
-|----------------|
-| ![Sign in Page](assets/readme/2.sign_in_page.png) |
 
 ### Feed Page :
 | Light Mode  | ![Light Mode](assets/readme/3.feed_page_light_1.png) | ![Light Mode](assets/readme/4.feed_page_light_2.png) |
