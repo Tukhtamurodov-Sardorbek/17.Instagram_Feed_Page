@@ -1,5 +1,7 @@
 # INSTAGRAM FEED PAGE UI
 
+- [Disable screenshot => Splash page](https://www.fluttercampus.com/guide/142/how-to-disable-screenshot-capture-screen-recording-in-flutter/)
+
 ### Splash & Sign in Page:
 | Splash Page | Sign in Page |
 |----------------|:----------------:|

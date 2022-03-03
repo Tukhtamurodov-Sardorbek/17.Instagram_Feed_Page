@@ -1,7 +1,8 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
-
 import '2.sign_in_up_page.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_windowmanager/flutter_windowmanager.dart';
+
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -19,6 +20,11 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    //to run async code in initState
+    //enables secure mode for app, disables screenshot, screen recording
+    Future.delayed(Duration.zero, () async {
+      await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
+    });
     _openNextPage();
   }
   @override
